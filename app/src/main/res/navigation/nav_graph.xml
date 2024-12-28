@@ -1,18 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
 
     <fragment
-        android:id="@+id/homeFragment"
+        android:id="@+id/nav_home"
         android:name="com.rio.responsi_mobile.fragment.HomeFragment"
-        android:label="HomeFragment"
+        android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.rio.responsi_mobile.activities.LoginFragment"
-        android:label="Login"
-        tools:layout="@layout/activity_login" />
+        android:id="@+id/nav_profile"
+        android:name="com.rio.responsi_mobile.fragment.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

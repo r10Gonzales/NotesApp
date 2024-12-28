@@ -25,4 +25,9 @@
     <string name="save_note">Save Note</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="add_note">Add Note</string>
+    <string name="welcome">Welcome,</string>
+    <string name="user_name">User Name</string>
+    <string name="user_email">User Email</string>
+    <string name="logout">Logout</string>
 </resources>
