@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "867051123543",
+    "project_id": "notesapp-12615",
+    "storage_bucket": "notesapp-12615.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867051123543:android:f7b09081985b38dacc8412",
+        "android_client_info": {
+          "package_name": "com.rio.responsi_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLFFiX1YNRz-Yea7VHnAfrzWdC7H324bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

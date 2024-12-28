@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">responsi_mobile</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="new_to_horizon_register">New to Horizon? Register</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="default_web_client_id">867051123543-9tn2b15nvpcg4ipu3dkp921qjub6s23g.apps.googleusercontent.com</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="fab_content_desc">Tambahkan Catatan Perjalanan</string>
+    <string name="title">Title</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="description">Description</string>
+    <string name="save_note">Save Note</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>
