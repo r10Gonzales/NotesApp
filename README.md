@@ -8,18 +8,19 @@ TravelNote adalah aplikasi mobile yang membantu pengguna mencatat dan mengelola 
 - **Lihat Daftar Catatan**: Pengguna dapat melihat daftar semua catatan perjalanan yang telah dibuat.
 - **Edit Catatan**: Pengguna dapat mengedit informasi catatan perjalanan yang sudah ada.
 - **Hapus Catatan**: Pengguna dapat menghapus catatan perjalanan yang tidak lagi diperlukan.
-- **Profil Pengguna**: Menampilkan informasi pengguna dan menyediakan opsi untuk logout.
+- **Profil Pengguna**: Menampilkan informasi pengguna.
 
 ## Teknologi yang Digunakan
 
 - **Kotlin**: Bahasa pemrograman utama.
 - **Firebase Realtime Database**: Untuk penyimpanan dan pengambilan data catatan perjalanan secara real-time.
-- **Firebase Authentication**: Untuk autentikasi pengguna.
 - **Material Design**: Untuk desain antarmuka pengguna yang menarik dan intuitif.
 - **Jetpack Navigation**: Untuk mengelola navigasi antar halaman dalam aplikasi.
 - **View Binding**: Untuk mengakses komponen UI secara lebih aman dan efisien.
 
 ## Struktur Direktori Proyek
+
+```
 com.rio.responsi_mobile/
   activity/
     MainActivity
@@ -42,10 +43,11 @@ com.rio.responsi_mobile/
       fragment_profile.xml
       activity_add_travel_note.xml
       activity_travel_note_detail.xml
-      navigation/
+    navigation/
       nav_graph.xml
     menu/
       bottom_nav_menu.xml
+```
 
 ## Instalasi dan Menjalankan Proyek
 
@@ -68,7 +70,7 @@ com.rio.responsi_mobile/
 
 4. **Jalankan Aplikasi**:
     - Hubungkan perangkat Android atau gunakan emulator.
-    - Klik tombol `Run` di Android Studio atau gunakan shortcut Shift+F10.
+    - Klik tombol `Run` di Android Studio atau gunakan shortcut `Shift+F10`.
 
 ## Screenshot
 
@@ -91,3 +93,4 @@ Kontribusi sangat dihargai! Jika Anda ingin berkontribusi, silakan fork reposito
 ## Lisensi
 
 Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+
