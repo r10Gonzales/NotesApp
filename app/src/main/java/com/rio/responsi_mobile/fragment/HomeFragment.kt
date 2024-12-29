@@ -11,7 +11,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
-import com.rio.responsi_mobile.activities.AddTravelNoteActivity
 import com.rio.responsi_mobile.activities.TravelNoteDetailActivity
 import com.rio.responsi_mobile.adapter.TravelNoteAdapter
 import com.rio.responsi_mobile.databinding.FragmentHomeBinding
@@ -65,11 +64,6 @@ class HomeFragment : Fragment() {
                     // Handle error
                 }
             })
-        }
-
-        binding.addNoteButton.setOnClickListener {
-            val intent = Intent(context, AddTravelNoteActivity::class.java)
-            startActivity(intent)
         }
     }
 
